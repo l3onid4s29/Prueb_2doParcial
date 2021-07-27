@@ -14,11 +14,7 @@ public class Materia {
         this.profesorN = profesor;
     }
     
-    public void agregaEstudiante(Estudiante carrera1) {
+    public void addEstudiante(Estudiante carrera1) {
         estudianteN.add(carrera1);
-    }
-
-  
-
-    
+    }  
 }

@@ -15,7 +15,7 @@ public class Facultad {
         this.director = director;
     }
 
-    public void agregaCarrera(Carrera carrera1) {
+    public void addCarrera(Carrera carrera1) {
         carrera.add(carrera1);
     }
 

@@ -8,7 +8,7 @@ public class Estudiante {
 
     private ArrayList<Materia> materia = new ArrayList<>(); 
 
-    public void agregaMateria(Materia materiaN) {
+    public void addMateria(Materia materiaN) {
         
         materia.add(materiaN);
     }

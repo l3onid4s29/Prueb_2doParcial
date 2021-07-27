@@ -8,7 +8,7 @@ public class Universidad {
 
     private ArrayList<Facultad> facultad; 
     
-     public void agregaFacultad(Facultad facultadN) {
+     public void addFacultad(Facultad facultadN) {
         facultad.add(facultadN);
     }
 
@@ -16,7 +16,4 @@ public class Universidad {
         facultad = new ArrayList<>();
         this.nomUniversidad = nomUniversidad;
     }
-
-   
-
 }
